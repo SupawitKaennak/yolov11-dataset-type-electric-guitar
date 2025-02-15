@@ -1,0 +1,14 @@
+train: E:/pythonFILES/yolov11/datasets/images/train # train images (relative to 'path') 4 images
+val: E:/pythonFILES/yolov11/datasets/images/val # val images (relative to 'path') 4 images
+nc: 8 # จำนวน class
+
+# Classes
+names:
+  0: Stratocaster
+  1: Les Paul
+  2: Telecaster
+  3: SG
+  4: Flying V
+  5: Explorer
+  6: Jazzmaster
+  7: Firebird
