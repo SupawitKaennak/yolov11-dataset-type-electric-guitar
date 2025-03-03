@@ -1,5 +1,5 @@
-train: E:/pythonFILES/yolov11/datasets/images/train # train images (relative to 'path') 4 images
-val: E:/pythonFILES/yolov11/datasets/images/val # val images (relative to 'path') 4 images
+train: E:/pythonFILES/yolov11-dataset-type-electric-guitar/datasets/images/train # train images (relative to 'path') 4 images
+val: E:/pythonFILES/yolov11-dataset-type-electric-guitar/datasets/images/val # val images (relative to 'path') 4 images
 nc: 8 # จำนวน class
 
 # Classes
