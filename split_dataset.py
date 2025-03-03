@@ -3,12 +3,12 @@ import random
 import shutil
 
 # Path ของโฟลเดอร์
-image_folder = 'E:/pythonFILES/yolov11/datasets/images/train'
-label_folder = 'E:/pythonFILES/yolov11/datasets/labels/train'
+image_folder = 'E:/pythonFILES/yolov11-dataset-type-electric-guitar/datasets/images/train'
+label_folder = 'E:/pythonFILES/yolov11-dataset-type-electric-guitar/datasets/labels/train'
 
 # โฟลเดอร์สำหรับ val
-val_image_folder = 'E:/pythonFILES/yolov11/datasets/images/val'
-val_label_folder = 'E:/pythonFILES/yolov11/datasets/labels/val'
+val_image_folder = 'E:/pythonFILES/yolov11-dataset-type-electric-guitar/datasets/images/val'
+val_label_folder = 'E:/pythonFILES/yolov11-dataset-type-electric-guitar/datasets/labels/val'
 
 # สร้างโฟลเดอร์ val ถ้ายังไม่มี
 os.makedirs(val_image_folder, exist_ok=True)
